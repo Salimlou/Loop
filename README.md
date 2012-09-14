@@ -1,2 +1,1 @@
-Loop
-====
+MVC Pattern code using Blocks, NSTimer, NSThread, GCD Dispatch Queues, Delegate pattern.
