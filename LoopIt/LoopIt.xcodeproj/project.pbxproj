@@ -19,6 +19,15 @@
 		0F9FF0A01606BC08007060C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FF09F1606BC08007060C5 /* ViewController.m */; };
 		0F9FF0A31606BC08007060C5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F9FF0A11606BC08007060C5 /* ViewController.xib */; };
 		0F9FF0AA1606BC3F007060C5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9FF0A91606BC3F007060C5 /* CoreMotion.framework */; };
+		0F9FF0BE1606BF00007060C5 /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FF0B21606BF00007060C5 /* Clock.m */; };
+		0F9FF0BF1606BF00007060C5 /* IncDecControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FF0B41606BF00007060C5 /* IncDecControl.m */; };
+		0F9FF0C01606BF00007060C5 /* LL_RECORD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0F9FF0B51606BF00007060C5 /* LL_RECORD.TTF */; };
+		0F9FF0C11606BF00007060C5 /* LoopDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FF0B71606BF00007060C5 /* LoopDocument.m */; };
+		0F9FF0C21606BF00007060C5 /* TempoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FF0B91606BF00007060C5 /* TempoView.m */; };
+		0F9FF0C31606BF00007060C5 /* Timeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FF0BB1606BF00007060C5 /* Timeline.m */; };
+		0F9FF0C41606BF00007060C5 /* TransportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FF0BD1606BF00007060C5 /* TransportView.m */; };
+		0F9FF0C81606BF70007060C5 /* Apple Symbols.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9FF0C61606BF70007060C5 /* Apple Symbols.ttf */; };
+		0F9FF0C91606BF70007060C5 /* AppleCasual.dfont in Resources */ = {isa = PBXBuildFile; fileRef = 0F9FF0C71606BF70007060C5 /* AppleCasual.dfont */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +48,21 @@
 		0F9FF09F1606BC08007060C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F9FF0A21606BC08007060C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		0F9FF0A91606BC3F007060C5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0F9FF0B11606BF00007060C5 /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		0F9FF0B21606BF00007060C5 /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		0F9FF0B31606BF00007060C5 /* IncDecControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncDecControl.h; sourceTree = "<group>"; };
+		0F9FF0B41606BF00007060C5 /* IncDecControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncDecControl.m; sourceTree = "<group>"; };
+		0F9FF0B51606BF00007060C5 /* LL_RECORD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = LL_RECORD.TTF; sourceTree = "<group>"; };
+		0F9FF0B61606BF00007060C5 /* LoopDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopDocument.h; sourceTree = "<group>"; };
+		0F9FF0B71606BF00007060C5 /* LoopDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopDocument.m; sourceTree = "<group>"; };
+		0F9FF0B81606BF00007060C5 /* TempoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempoView.h; sourceTree = "<group>"; };
+		0F9FF0B91606BF00007060C5 /* TempoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempoView.m; sourceTree = "<group>"; };
+		0F9FF0BA1606BF00007060C5 /* Timeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timeline.h; sourceTree = "<group>"; };
+		0F9FF0BB1606BF00007060C5 /* Timeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timeline.m; sourceTree = "<group>"; };
+		0F9FF0BC1606BF00007060C5 /* TransportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransportView.h; sourceTree = "<group>"; };
+		0F9FF0BD1606BF00007060C5 /* TransportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransportView.m; sourceTree = "<group>"; };
+		0F9FF0C61606BF70007060C5 /* Apple Symbols.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Symbols.ttf"; sourceTree = "<group>"; };
+		0F9FF0C71606BF70007060C5 /* AppleCasual.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleCasual.dfont; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +113,8 @@
 			children = (
 				0F9FF09E1606BC08007060C5 /* ViewController.h */,
 				0F9FF09F1606BC08007060C5 /* ViewController.m */,
-				0F9FF0AC1606BC60007060C5 /* Models */,
-				0F9FF0AB1606BC59007060C5 /* Views */,
+				0F9FF0AC1606BC60007060C5 /* AppModels */,
+				0F9FF0AB1606BC59007060C5 /* AppViews */,
 				0F9FF08D1606BC08007060C5 /* Supporting Files */,
 			);
 			path = LoopIt;
@@ -99,6 +123,7 @@
 		0F9FF08D1606BC08007060C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F9FF0C51606BF2E007060C5 /* Fonts */,
 				0F9FF0951606BC08007060C5 /* AppDelegate.h */,
 				0F9FF0961606BC08007060C5 /* AppDelegate.m */,
 				0F9FF0A11606BC08007060C5 /* ViewController.xib */,
@@ -113,18 +138,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0F9FF0AB1606BC59007060C5 /* Views */ = {
+		0F9FF0AB1606BC59007060C5 /* AppViews */ = {
 			isa = PBXGroup;
 			children = (
+				0F9FF0B31606BF00007060C5 /* IncDecControl.h */,
+				0F9FF0B41606BF00007060C5 /* IncDecControl.m */,
+				0F9FF0B81606BF00007060C5 /* TempoView.h */,
+				0F9FF0B91606BF00007060C5 /* TempoView.m */,
+				0F9FF0BA1606BF00007060C5 /* Timeline.h */,
+				0F9FF0BB1606BF00007060C5 /* Timeline.m */,
+				0F9FF0BC1606BF00007060C5 /* TransportView.h */,
+				0F9FF0BD1606BF00007060C5 /* TransportView.m */,
 			);
-			name = Views;
+			name = AppViews;
 			sourceTree = "<group>";
 		};
-		0F9FF0AC1606BC60007060C5 /* Models */ = {
+		0F9FF0AC1606BC60007060C5 /* AppModels */ = {
 			isa = PBXGroup;
 			children = (
+				0F9FF0B11606BF00007060C5 /* Clock.h */,
+				0F9FF0B21606BF00007060C5 /* Clock.m */,
+				0F9FF0B61606BF00007060C5 /* LoopDocument.h */,
+				0F9FF0B71606BF00007060C5 /* LoopDocument.m */,
 			);
-			name = Models;
+			name = AppModels;
+			sourceTree = "<group>";
+		};
+		0F9FF0C51606BF2E007060C5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F9FF0C61606BF70007060C5 /* Apple Symbols.ttf */,
+				0F9FF0C71606BF70007060C5 /* AppleCasual.dfont */,
+				0F9FF0B51606BF00007060C5 /* LL_RECORD.TTF */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +230,9 @@
 				0F9FF09B1606BC08007060C5 /* Default@2x.png in Resources */,
 				0F9FF09D1606BC08007060C5 /* Default-568h@2x.png in Resources */,
 				0F9FF0A31606BC08007060C5 /* ViewController.xib in Resources */,
+				0F9FF0C01606BF00007060C5 /* LL_RECORD.TTF in Resources */,
+				0F9FF0C81606BF70007060C5 /* Apple Symbols.ttf in Resources */,
+				0F9FF0C91606BF70007060C5 /* AppleCasual.dfont in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +246,12 @@
 				0F9FF0931606BC08007060C5 /* main.m in Sources */,
 				0F9FF0971606BC08007060C5 /* AppDelegate.m in Sources */,
 				0F9FF0A01606BC08007060C5 /* ViewController.m in Sources */,
+				0F9FF0BE1606BF00007060C5 /* Clock.m in Sources */,
+				0F9FF0BF1606BF00007060C5 /* IncDecControl.m in Sources */,
+				0F9FF0C11606BF00007060C5 /* LoopDocument.m in Sources */,
+				0F9FF0C21606BF00007060C5 /* TempoView.m in Sources */,
+				0F9FF0C31606BF00007060C5 /* Timeline.m in Sources */,
+				0F9FF0C41606BF00007060C5 /* TransportView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,5 +35,11 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Apple Symbols.ttf</string>
+		<string>LL_RECORD.TTF</string>
+		<string>AppleCasual.dfont</string>
+	</array>
 </dict>
 </plist>
